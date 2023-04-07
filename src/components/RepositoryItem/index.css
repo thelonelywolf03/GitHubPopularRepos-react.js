@@ -1,0 +1,39 @@
+.card {
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.inner-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.stars {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.inner-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}

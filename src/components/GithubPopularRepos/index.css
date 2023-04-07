@@ -1,0 +1,45 @@
+.Github-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.popular-heading {
+  font-family: 'Lobster';
+  font-size: 45px;
+  font-weight: bold;
+}
+.order-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+@media screen and (max-width: 576px) {
+  .order-list {
+    width: 370px;
+  }
+}
+.repo-card-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.failure-view {
+  margin-top: 20px;
+}
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.error-message {
+  text-align: center;
+  color: #334155;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+}
